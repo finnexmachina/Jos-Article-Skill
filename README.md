@@ -1,4 +1,4 @@
-# Article Writer — Claude Code Skill
+# Article Writer — Claude Code Skill (JO's Skill)
 
 An AI-powered article writing system for product experts. Write authoritative articles about your company's product with deep research, your own writing style, and AI detection built in.
 
