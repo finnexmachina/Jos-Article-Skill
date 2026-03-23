@@ -37,9 +37,10 @@ Read ALL knowledge files at once. This is the foundation for the entire article.
    - Blacklisted sources
    - Standing research rules
 
-3. **Product profile:** Read the .md file(s) in `${CLAUDE_SKILL_DIR}/products/`
-   - Full product map, features, editions, limits, competitors, pricing
-   - Real user sentiment, case studies
+3. **Product profile:** Read `${CLAUDE_SKILL_DIR}/products/[product].md` in TWO layers:
+   - **Always load the SUMMARY section** (everything above "Functionality Deep Dive") — one-liner, overview, core details, product map, strengths, weaknesses, competitive summary, pricing summary. This is ~200-300 lines max.
+   - **Selectively load DEEP DIVE sections** — only the modules relevant to this article's topic. Each module section is self-contained. Don't load all 20 modules if the article only covers 2.
+   - Also load: Sentiment, Recent Developments, Narrative Angles sections (compact)
 
 4. **Narrative angles:** `${CLAUDE_SKILL_DIR}/product-angles.md`
    - Recurring angles and the author's position on each
@@ -101,13 +102,16 @@ Extracted UI details are **verified** and outrank documentation claims.
 
 ### Confirm plan
 
-Before researching, confirm:
+Before researching, identify which product modules are relevant to this article's angle. Then load those deep-dive sections from the product profile.
+
+Confirm:
 > Here's what I'll write:
 > - **Angle:** [angle]
 > - **Audience:** [audience] (from your profile, unless different)
 > - **Format:** [format], ~[length] words
-> - **Product areas:** [features/modules from the product profile that are relevant]
-> - **Using:** [N] product sources, [N] competitor sources, product profile ([N] modules), [stylesheet name]
+> - **Product deep-dive loaded:** [list of specific modules loaded from the product profile]
+> - **Product summary:** always loaded (overview, strengths/weaknesses, competitive, pricing)
+> - **Using:** [N] product sources, [N] competitor sources, [stylesheet name]
 >
 > I'll run 10-30+ searches to add depth beyond your existing sources. After research, I'll present everything with source URLs for you to double-check. Ready?
 

@@ -249,13 +249,14 @@ _Last updated: [date] | Sources: [count] | Confidence: [high/medium/low]_
 
 ---
 
+<!-- SUMMARY SECTION — always loaded by /article -->
+<!-- This section is compact enough to load for every article -->
+
 ## One-Liner
 [What it is in one sentence]
 
 ## Overview
 [2-3 paragraphs: what it does, who it's for, why it matters, what makes it different]
-
----
 
 ## Core Details
 
@@ -269,13 +270,29 @@ _Last updated: [date] | Sources: [count] | Confidence: [high/medium/low]_
 - **Customer count:** [If public]
 - **Website:** [URL]
 
----
-
 ## Product Map
 
-[The full module map from Stage 1, now filled in with depth indicators]
+[The full module map from Stage 1, with one-line summary per module]
+
+## Key Strengths
+- [Strength]: [one-line evidence]
+
+## Key Weaknesses
+- [Weakness]: [one-line evidence]
+
+## Competitive Summary
+| Competitor | Where [Product] wins | Where they win |
+|-----------|---------------------|----------------|
+
+## Pricing Summary
+[Tier names, price points, key differences in one table]
+
+<!-- END SUMMARY — everything above is ~200-300 lines max -->
 
 ---
+
+<!-- DEEP DIVE SECTIONS — loaded selectively by /article based on the article's topic -->
+<!-- Each module section is self-contained so individual ones can be loaded -->
 
 ## Functionality Deep Dive
 
