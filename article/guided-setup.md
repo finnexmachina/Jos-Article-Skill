@@ -224,4 +224,6 @@ This way if the user disconnects or the session is interrupted, whatever was com
 > - **Samples:** [N] collected
 > - **Rules:** [N] standing rules
 >
-> One folder = one identity. Want to write for a different company, product, or voice? Create a new project folder and copy the skill fresh from the original repo.
+> Run `/article` to write your first article. All your knowledge is loaded fresh each time — nothing from this setup conversation carries over, so `/article` gets full focus on your article.
+>
+> One folder = one identity. Different company or voice? New folder, fresh copy from the repo.

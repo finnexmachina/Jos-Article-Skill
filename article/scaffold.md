@@ -74,9 +74,11 @@ mkdir -p "${CLAUDE_SKILL_DIR}/screenshots"
 ```markdown
 # Article Skill
 
-Just run `/article`. It handles everything.
+Two commands:
+1. `/article-setup` — run once to build your profile, product knowledge, and writing style
+2. `/article` — run every time to write an article
 
-One folder = one identity. Different company or voice? New folder, fresh setup.
+One folder = one identity. Different company or voice? New folder, fresh copy from the repo.
 ```
 
 ---

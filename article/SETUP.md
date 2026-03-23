@@ -1,9 +1,7 @@
 # Article Skill
 
-Just run `/article`. It handles everything.
+Two commands:
+1. `/article-setup` — run once to build your profile, product knowledge, and writing style
+2. `/article` — run every time to write an article
 
-- 5 questions → AI researches and fills in the rest
-- Paste your writing samples when asked (URLs or text)
-- Attach screenshots with article requests when relevant
-
-One folder = one identity. Different company or voice? New folder, fresh setup.
+One folder = one identity. Different company or voice? New folder, fresh copy from the repo.
